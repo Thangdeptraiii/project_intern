@@ -1,0 +1,128 @@
+.duhoc__text-header {
+    font-size: 70px;
+    font-weight: 700;
+    max-width: 100%;
+    /* white-space: nowrap; */
+}
+
+.duhoc__text-slider {
+    font-size: 90px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+.duhoc__text-countrys {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.duhoc__text-white {
+    color: white;
+    text-shadow: 0.2rem 0.2rem #000;
+}
+
+.duhoc__text-success {
+    color: #198754;
+    text-shadow: 0.08rem 0rem #30fa9c;
+}
+
+.duhoc__text-xd {
+    color: #198754;
+    text-shadow: 0.05rem 0rem #000000;
+}
+
+.text-sub-slider {
+  font-size: 20px;
+}
+
+.flag {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221));
+}
+
+.flag-zoom {
+    transition: transform .5s;
+}
+
+.flag-zoom:hover {
+    transform: scale(1.1);
+}
+
+.tests {
+  height: 18rem;
+}
+
+.zoom-effect {
+    width: 100%; /* Chiều rộng của div */
+    height: 100px; /* Chiều cao của div */
+    background-color: #ccc; /* Màu nền của div */
+    animation: zoom 0.5s infinite alternate; /* Sử dụng animation 'zoom' với thời gian 2s, vô hạn và chuyển đổi lần lượt */
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1); /* Kích thước ban đầu */
+    }
+    100% {
+      transform: scale(1.1); /* Kích thước sau khi phóng to */
+    }
+  }
+
+  .footer{
+    background-color: #008037;
+    color: white;
+    line-height:29px;
+  }
+
+@media (max-width: 576px) { 
+  .duhoc__text-header {
+    font-size: 40px;
+  }
+
+  .duhoc__text-slider {
+    font-size: 45px;
+    padding-left: 12px;
+  }
+
+  .text-sub-slider {
+    font-size: 30px;
+  }
+
+  .info {
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 768px) { 
+  .duhoc__text-header {
+    font-size: 60px;
+  }
+
+  .duhoc__text-slider {
+    font-size: 75px;
+    padding-left: 12px;
+  }
+
+  .text-sub-slider {
+    font-size: 22px;
+  }
+
+  .info {
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 992px) { 
+  .info {
+    padding: 12px 0;
+  }
+
+  .text-sub-slider {
+    font-size: 22px;
+  }
+}
+
+
+
+
+
+
