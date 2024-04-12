@@ -51,10 +51,6 @@
   height: 18rem;
 }
 
-.info {
-  padding: 0;
-}
-
 .zoom-effect {
     width: 100%; /* Chiều rộng của div */
     height: 100px; /* Chiều cao của div */
@@ -77,6 +73,11 @@
     line-height:29px;
   }
 
+  .info {
+    height: 60px;
+  }
+
+
 @media (max-width: 576px) { 
   .duhoc__text-header {
     font-size: 40px;
@@ -92,7 +93,11 @@
   }
 
   .info {
-    padding: 12px 0;
+    height: 50px !important;
+  }
+
+  .info b {
+    font-size: 20px;
   }
 }
 
@@ -111,17 +116,35 @@
   }
 
   .info {
-    padding: 12px 0;
+    height: 55px !important;
   }
+
+  .info b {
+    font-size: 22px;
+  }
+
 }
 
 @media (max-width: 992px) { 
-  /* .info {
-    padding: 12px 0;
-  } */
+
+  .info b {
+    font-size: 18px;
+  }
+
+  .info {
+    height: 60px !important;
+  }
 
   .text-sub-slider {
     font-size: 22px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  .info {
+    height: 90px;
   }
 
 }
