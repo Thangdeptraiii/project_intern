@@ -149,6 +149,19 @@
 
 }
 
+.footer1{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f3f4;
+  text-align: center;
+  z-index: 10000;
+}
+
+.footer {
+  /* margin-bottom: 120px; */
+}
+
 
 
 
